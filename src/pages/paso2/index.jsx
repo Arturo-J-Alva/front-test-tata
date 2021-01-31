@@ -2,7 +2,7 @@ import { useRouter } from 'next/router';
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import Header from '../../components/paso2/header';
-import InfoCard from '../../components/paso2/InfoCard';
+import InfoCard from '../../components/paso2/infoCard';
 import PlanCard from '../../components/paso2/planCard';
 import PlanList from '../../components/paso2/planList';
 import FormButton from '../../utils/components/formButton';
