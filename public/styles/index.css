@@ -1,0 +1,25 @@
+.fondo1 {
+    background-image: url("../images/Base.png");
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
+
+.fondo2 {
+    background-image: url("../images/Base.png");
+    background-repeat: no-repeat;
+    background-size: auto 600px;
+}
+
+.fondoB{
+    top: 0px;
+}
+
+/* Ocultando el icono por defecto del input tipo date  */
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+.text-input{
+    height: 3.5rem;
+}
